@@ -36,4 +36,3 @@ async def view():
 
 
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
-uvicorn.run(app, port=86)
