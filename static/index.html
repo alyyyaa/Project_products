@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Search</title>
+</head>
+<body>
+    <div class="search-container">
+        <form id="searchForm">
+            <input type="text" id="searchInput" name="search_query" placeholder="Поиск продуктов...">
+            <button type="submit" id="searchButton">Поиск</button>
+            <button type="button" id="addButton">Добавить</button>
+            <button type="button" id="viewButton">Просмотр</button>
+        </form>
+    </div>
+    <div id="resultsContainer"></div>
+
+    <div id="helpButtonContainer">
+    <button id="helpButton">Помощь</button>
+    </div>
+
+    <div id="helpModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="close-container">
+                <img id="closeHelpModal" class="close" src="close.png" alt="Закрыть">
+            </div>
+            <div class="help-text">
+                <p>Кнопка "Добавить" необходима для того, чтобы добавить новое наименование продукта в базу данных.</p>
+                <p>Кнопка "Просмотр" необходима для того, чтобы просмотреть всю базу данных.</p>
+                <p>Кнопка "Корзина" необходима для того, чтобы удалить наименование продукта из базы данных.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 60%;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 400px;
+    background-color: #8FBC8F;
+    border: 2px solid #006400;
+    color: white;
+    border-radius: 10px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #6B8E23;
+    color: white;
+    border: 2px solid #006400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultsContainer {
+    margin: 20px;
+}
+.result {
+    border: 2px solid #808000;;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    font-size: 20px;
+    background-color: #90EE90;
+}
+
+.delete-icon img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+#helpButton {
+    padding: 5px 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #808000;
+    color: white;
+    border: 1px solid #006400;
+    border-radius: 5px;
+}
+.help-text {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    text: white;
+}
+.close-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+#closeHelpModal {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#viewButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-top: 1px;
+    padding: 5px 30px;
+    background-color: #808000;
+    color: white;
+    border: 1px solid #006400;
+    border-radius: 5px;
+}
+#addButton {
+    padding: 10px 20px;
+    background-color: #808000;
+    color: white;
+    border: 1px solid #006400;
+    border-radius: 5px;
+}
